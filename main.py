@@ -56,5 +56,5 @@ def filter_words(input_file_path, output_file_path, min_length=7):
     except Exception as e:
         print(f"Виникла помилка: {e}")
 
-# Виклик функції для вашого вхідного файлу та нового файлу
+# Виклик функції для вхідного файлу та нового файлу
 filter_words('text.txt', 'text2.txt', min_length=7)
